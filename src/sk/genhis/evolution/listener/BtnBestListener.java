@@ -20,13 +20,13 @@ public final class BtnBestListener implements ActionListener {
 		if(this.active) {
 			this.max = 0;
 			this.active = false;
-			Evolution.get().btnBest.setText("Vybraù najlepöÌch");
+			Evolution.get().btnBest.setText("Vybra≈• najlep≈°√≠ch");
 		}
 		else {
 			String s = null;
-			if((s = JOptionPane.showInputDialog("Zadajte poËet jedincov")) != null) {
+			if((s = JOptionPane.showInputDialog("Zadajte poƒçet jedincov")) != null) {
 				this.max = Integer.parseInt(s);
-				Evolution.get().btnBest.setText("Nehæadaù najlepöÌch");
+				Evolution.get().btnBest.setText("Nehƒæada≈• najlep≈°√≠ch");
 				
 				this.select();
 				this.active = true;

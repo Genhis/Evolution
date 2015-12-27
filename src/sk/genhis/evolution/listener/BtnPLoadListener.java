@@ -32,14 +32,14 @@ public final class BtnPLoadListener implements ActionListener {
 				
 				this.file = fc.getSelectedFile();
 				Evolution.get().rec.load();
-				Evolution.get().btnPLoad.setText("Naèítava sa ...");
+				Evolution.get().btnPLoad.setText("NaÄÃ­tava sa ...");
 				Evolution.get().btn_setEnabled(false);
 			}
 			else
 				this.active = false;
 		}
 		else {
-			Evolution.get().btnPLoad.setText("Naèíta zo súboru");
+			Evolution.get().btnPLoad.setText("NaÄÃ­taÅ¥ zo sÃºboru");
 			Evolution.get().toggleBtn();
 			Evolution.get().prec = new LinkedHashMap<Integer, Population>();
 			Evolution.get().dPop.repaintContent();

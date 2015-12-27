@@ -17,7 +17,7 @@ public final class BtnInstantListener implements ActionListener, Runnable {
 	@Override
 	public void run() {
 		Evolution.get().toggleBtn();
-		Evolution.get().btnInstant.setText("Zastaviù generovanie");
+		Evolution.get().btnInstant.setText("Zastavi≈• generovanie");
 		
 		while(this.started) {
 			if(!Evolution.get().pop.nextGeneration())
@@ -34,7 +34,7 @@ public final class BtnInstantListener implements ActionListener, Runnable {
 			}
 		}
 		
-		Evolution.get().btnInstant.setText("Do nekoneËna");
+		Evolution.get().btnInstant.setText("Do nekoneƒçna");
 		Evolution.get().toggleBtn();
 	}
 }

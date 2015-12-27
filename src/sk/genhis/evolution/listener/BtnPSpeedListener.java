@@ -11,7 +11,7 @@ public final class BtnPSpeedListener implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		String s;
-		if((s = JOptionPane.showInputDialog("Zadajte r˝chlosù prehr·vania v milisekund·ch/gener·cia")) != null)
+		if((s = JOptionPane.showInputDialog("Zadajte r√Ωchlos≈• prehr√°vania v milisekund√°ch/gener√°cia")) != null)
 			this.speed = Integer.parseInt(s);
 	}
 	

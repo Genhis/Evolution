@@ -27,7 +27,7 @@ public final class BtnRecordListener implements ActionListener {
 					this.file = new File(fc.getSelectedFile().getAbsolutePath() + ".evr");
 				else
 					this.file = fc.getSelectedFile();
-				Evolution.get().btnRecord.setText("Vypn˙ù nahr·vanie");
+				Evolution.get().btnRecord.setText("Vypn√∫≈• nahr√°vanie");
 				Evolution.get().toggleBtn();
 				Evolution.get().rec.start();
 			}
@@ -35,7 +35,7 @@ public final class BtnRecordListener implements ActionListener {
 				this.active = false;
 		}
 		else {
-			Evolution.get().btnRecord.setText("Nahraù z·znam");
+			Evolution.get().btnRecord.setText("Nahra≈• z√°znam");
 			Evolution.get().toggleBtn();
 			Evolution.get().rec.stop();
 			this.file = null;

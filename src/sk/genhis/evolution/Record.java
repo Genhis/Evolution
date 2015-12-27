@@ -59,7 +59,7 @@ public final class Record implements Runnable {
 					catch(EOFException ex) {}
 					ois.close();
 					r.playStart();
-					Evolution.get().btnPLoad.setText("Vypn˙ù mÛd prehr·vania");
+					Evolution.get().btnPLoad.setText("Vypn√∫≈• m√≥d prehr√°vania");
 					Evolution.get().toggleBtn();
 				}
 				catch(ClassNotFoundException ex) {

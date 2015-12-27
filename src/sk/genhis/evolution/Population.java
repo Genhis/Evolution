@@ -51,7 +51,7 @@ public final class Population implements Serializable {
 				this.woman.add(o);
 		
 		if((this.man.size() == 0 || this.woman.size() == 0) && !this.msg) {
-			JOptionPane.showMessageDialog(null, "Tvoja popul·cia sa blÌûi k vyhynutiu!");
+			JOptionPane.showMessageDialog(null, "Tvoja popul√°cia sa bl√≠≈æi k vyhynutiu!");
 			this.msg = true;
 		}
 		
@@ -97,7 +97,7 @@ public final class Population implements Serializable {
 			Evolution.get().rec.add(this);
 		
 		if(this.org.size() == 0) {
-			JOptionPane.showMessageDialog(null, "Tvoja popul·cia vyhynula!");
+			JOptionPane.showMessageDialog(null, "Tvoja popul√°cia vyhynula!");
 			Evolution.get().btnRecordL.toggle();
 			Evolution.get().toggleBtn();
 			return false;

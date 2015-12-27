@@ -23,15 +23,15 @@ public final class OrganismInfo extends JFrame {
 	public void showInfo(Organism o) {
 		this.setTitle("Organizmus (ID " + o.id + ")");
 		String s = "ID: " + o.id;
-		s += "<br>Pohlavie: " + (o.man ? "Muû" : "éena");
+		s += "<br>Pohlavie: " + (o.man ? "Mu≈æ" : "≈Ωena");
 		s += "<br>Vek: " + o.age;
-		s += "<br>Veækosù: " + o.size;
-		s += "<br>R˝chlosù: " + o.speed;
+		s += "<br>Veƒækos≈•: " + o.size;
+		s += "<br>R√Ωchlos≈•: " + o.speed;
 		s += "<br>Sila: " + o.strength;
-		s += "<br>Odolnosù: " + o.resistance;
-		s += "<br>Rozmnoûovanie: " + o.reproduction;
-		s += "<br>äanca sa mut·ciu: " + o.mutationChance;
-		s += "<hr><br>SkÛre: " + o.getScore();
+		s += "<br>Odolnos≈•: " + o.resistance;
+		s += "<br>Rozmno≈æovanie: " + o.reproduction;
+		s += "<br>≈†anca sa mut√°ciu: " + o.mutationChance;
+		s += "<hr><br>Sk√≥re: " + o.getScore();
 		this.lblInfo.setText("<html>" + s + "</html>");
 		this.setVisible(true);
 	}

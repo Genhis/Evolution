@@ -18,7 +18,7 @@ public final class BtnMoreListener implements ActionListener, Runnable {
 	@Override
 	public void run() {
 		String s = null;
-		if((s = JOptionPane.showInputDialog("Zadajte poËet gener·ciÌ")) != null) {
+		if((s = JOptionPane.showInputDialog("Zadajte poƒçet gener√°ci√≠")) != null) {
 			this.active = true;
 			Evolution.get().btnMore.setText("Generuje sa ...");
 			Evolution.get().btn_setEnabled(false);
@@ -38,7 +38,7 @@ public final class BtnMoreListener implements ActionListener, Runnable {
 			Evolution.get().dPop.repaintContent();
 			
 			this.active = false;
-			Evolution.get().btnMore.setText("Niekoæko gener·ciÌ");
+			Evolution.get().btnMore.setText("Niekoƒæko gener√°ci√≠");
 			Evolution.get().toggleBtn();
 		}
 	}

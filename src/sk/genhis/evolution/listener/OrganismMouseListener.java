@@ -16,12 +16,12 @@ public final class OrganismMouseListener implements MouseListener {
 	@Override
 	public void mouseEntered(MouseEvent e) {
 		Organism o = ((OrganismDisplay)e.getComponent()).getOrganism();
-		Evolution.get().lblInfo.setText("ID: " + o.id + " | " + Evolution.get().slcDisplay.getSelectedItem() + ": " + o.getAbilityById(Evolution.get().slcDisplay.getSelectedIndex()) + " | SkÛre: " + o.getScore());
+		Evolution.get().lblInfo.setText("ID: " + o.id + " | " + Evolution.get().slcDisplay.getSelectedItem() + ": " + o.getAbilityById(Evolution.get().slcDisplay.getSelectedIndex()) + " | SkÔøΩre: " + o.getScore());
 	}
 	
 	@Override
 	public void mouseExited(MouseEvent e) {
-		Evolution.get().lblInfo.setText("Prejdi myöou po organizme pre dodatoËnÈ inform·cie");
+		Evolution.get().lblInfo.setText("Prejdi my≈°ou po organizme pre dodatoƒçn√© inform√°cie");
 	}
 	
 	@Override

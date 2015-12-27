@@ -65,7 +65,7 @@ public final class PopulationDisplay extends JPanel implements Runnable {
 		this.revalidate();
 		this.repaint();
 		
-		Evolution.get().lblGen.setText("Gener·cia " + this.pop.num);
+		Evolution.get().lblGen.setText("Gener√°cia " + this.pop.num);
 	}
 	
 	public void changeOutput(int index) {

@@ -64,6 +64,8 @@ public final class Evolution extends JFrame {
 	public final BtnPlayListener btnPlayL = new BtnPlayListener();
 	
 	public Evolution() {
+		Evolution.evolution = this;
+		
 		this.setTitle("Evolution simulator v" + Evolution.getVersion() + " | Created by Genhis \u00a9 2013");
 		this.getContentPane().setLayout(new BorderLayout(5, 5));
 		this.setSize(1024, 768);
@@ -161,7 +163,7 @@ public final class Evolution extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		(Evolution.evolution = new Evolution()).setVisible(true);
+		new Evolution().setVisible(true);
 	}
 	
 	public void toggleBtn() {
